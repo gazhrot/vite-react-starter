@@ -10,6 +10,7 @@ A modern, ultra-lightweight, and blazing-fast boilerplate designed to kickstart 
 * **Shadcn/ui (Vega Preset)**: Accessible, beautiful, and copy-pasteable components injected directly into your source code.
 * **React Router v7**: Ready to handle your application's routing and navigation out of the box.
 * **ESLint v10 & Stylistic (No Prettier)**: Clean code standardized according to **React Airbnb** guidelines, without Prettier's overhead or formatting conflicts.
+* **React Router v7** : Pre-configured multi-page routing with a working example (`/` and `/login`).
 
 ---
 
@@ -20,10 +21,14 @@ A modern, ultra-lightweight, and blazing-fast boilerplate designed to kickstart 
 ├── src/
 │   ├── components/        # Your global components
 │   │   └── ui/            # Components injected by Shadcn (e.g., Button)
+│   │   └── Navbar.tsx     # Beautiful dynamic navigation component
 │   ├── lib/
 │   │   └── utils.ts       # 'cn' helper function to merge Tailwind classes cleanly
+│   ├── routes/            # Your application pages / views
+│   │   ├── Home.tsx       # Main landing view (with counter example)
+│   │   └── Login.tsx      # Login placeholder view (with counter example)
 │   ├── assets/            # Static assets (images, SVGs, etc.)
-│   ├── App.tsx            # Root component
+│   ├── App.tsx            # App router setup (BrowserRouter, Routes, Route)
 │   ├── index.css          # Global styles + Tailwind v4 import
 │   └── main.tsx           # Application entry point
 ├── components.json        # Shadcn CLI configuration file
