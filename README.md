@@ -1,8 +1,8 @@
-# React + Vite + TypeScript Boilerplate (2026 Edition) 🚀
+# React + Vite + TypeScript Boilerplate (2026 Edition)
 
 A modern, ultra-lightweight, and blazing-fast boilerplate designed to kickstart PoCs or production-ready applications in the blink of an eye. Say goodbye to configuration hell—everything is fully aligned with the latest versions and standards of the ecosystem.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **React 19 & Vite**: Raw performance, instant startup times, and seamless Hot Module Replacement (HMR).
 * **TypeScript**: Strict, typed, and modern (free of deprecated options like `baseUrl`).
@@ -13,7 +13,7 @@ A modern, ultra-lightweight, and blazing-fast boilerplate designed to kickstart 
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 
 ```text
 ├── .vscode/               # Recommended configuration for VS Code
@@ -40,8 +40,8 @@ A modern, ultra-lightweight, and blazing-fast boilerplate designed to kickstart 
 ### 1. Clone the repository & Install dependencies
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-cd YOUR_REPO_NAME
+git clone https://github.com/gazhrot/vite-react-starter.git
+cd vite-react-starter
 npm install
 
 ```
@@ -64,7 +64,7 @@ npm run build
 
 ---
 
-### 🔄 Changing the Shadcn Preset / Theme
+### Changing the Shadcn Preset / Theme
 
 This boilerplate comes pre-configured with the **Vega** preset. If you want to switch to another preset (like *Default*, *New York*, etc.) or change the base color:
 
